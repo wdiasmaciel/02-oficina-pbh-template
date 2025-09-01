@@ -24,6 +24,7 @@ cd repositorio-original.git
 ```
 
 ## 3. Criar um novo repositório no GitHub (com outro nome, exemplo: repositorio-copiado)
+O novo repositório não deve conter o arquivo README.md.
 
 ## 4. Empurrar (push) tudo pro novo repositório:
 ```
