@@ -1,5 +1,3 @@
-# 01-oficina-pmg-20250825
-
 # Comandos do Git:
 ```
 git add .
