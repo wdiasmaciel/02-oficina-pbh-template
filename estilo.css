@@ -46,17 +46,32 @@ header {
 }
 
 .menu-hamburguer {
-    /* border: .1rem solid red; */
+    width: 1.2rem;
+    height: 1.2rem;
+    padding: .7rem;
     border-radius: 100%;
     margin-right: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.menu-hamburguer i {
+    font-size: 1.5rem;
+    color: #ccc;
 }
 
 .menu-hamburguer:hover {
     background-color: #4f4f4f;
 }
 
-.menu-hamburguer i {
-    font-size: 1.5rem;
+.menu-hamburguer:hover i {
+    color: #eee;
+}
+
+.menu-hamburguer i:hover {
+    color: white;
 }
 
 section {
