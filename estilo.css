@@ -143,6 +143,8 @@ main {
     /* border: .1rem solid #e6088d; */
     flex: 1;
     padding: .5rem;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .cartao {
@@ -151,6 +153,8 @@ main {
     height: 18rem;
     box-shadow: .5rem .5rem .2rem .03rem #eee;
     padding: .5rem;
+    margin-right: 1.3rem;
+    margin-bottom: 1.3rem;
 }
 
 .imagem {
@@ -191,4 +195,21 @@ footer {
     background-color: #252323;
     color: #eee;
     padding: .5rem;
+}
+
+@media(max-width: 576px) {
+    .titulo {
+        opacity: 0;
+    }
+
+    nav {
+        display: none;
+    }
+
+    main {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
 }
