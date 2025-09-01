@@ -41,6 +41,24 @@ header {
     align-content: center;
 }
 
+.titulo {
+    flex: 1;
+}
+
+.menu-hamburguer {
+    /* border: .1rem solid red; */
+    border-radius: 100%;
+    margin-right: .5rem;
+}
+
+.menu-hamburguer:hover {
+    background-color: #4f4f4f;
+}
+
+.menu-hamburguer i {
+    font-size: 1.5rem;
+}
+
 section {
     /* border: .1rem solid #ccd214; */
     display: flex;
